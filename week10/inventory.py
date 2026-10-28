@@ -2,6 +2,15 @@
 # Author: Parker DeJongh
 # Module 10 Lab: Inventory List Manager
 
+# Reflection 1: What suprised me most about how lists work in Python?
+# What suprised me most about lists in python is how easy it is to add items to the list. 
+# Instead of typing the additional item to the list we are simply able to use the append() method to add it.
+# Reflection 2: A business situation where a Python list would have saved me time:
+# In a business situation where a python list would help me save time is when I organize my expenses. 
+# I would be able to quickly add expenses to a list and be able to find the total
+# amount quickly. The list would provide me with the ability to store the expenses and write code 
+# that calculates the total and average expenses automatically.
+
 print("--- Exercise 1: Build the list ---")
 
 inventory = ["pen", "notebook", "stapler", "tape", "marker"]
@@ -74,12 +83,3 @@ for amount in sales:
 print("High sales:", high_sales)
 print(f"Count: {len(high_sales)}")
 print(f"Average: {sum(high_sales) / len(high_sales):.2f}")
-
-# Reflection 1: What suprised me most about how lists work in Python?
-# What suprised me most about lists in python is how easy it is to add items to the list. 
-# Instead of typing the additional item to the list we are simply able to use the append() method to add it.
-# Reflection 2: A business situation where a Python list would have saved me time:
-# In a business situation where a python list would help me save time is when I organize my expenses. 
-# I would be able to quickly add expenses to a list and be able to find the total
-# amount quickly. The list would provide me with the ability to store the expenses and write code 
-# that calculates the total and average expenses automatically.
